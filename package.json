@@ -1,0 +1,36 @@
+{
+  "name": "otc-smart-contracts",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-app": "^1.0.0",
+    "bignumber.js": "^4.0.0",
+    "bn.js": "^4.11.8",
+    "chai": "3.5.0",
+    "chai-as-promised": "^7.1.1",
+    "eth-gas-reporter": "git+https://github.com/cgewecke/eth-gas-reporter.git#pull/108/head",
+    "ganache-cli": "^6.2.3",
+    "mocha": "^5.2.0",
+    "prompt": "^1.0.0",
+    "rimraf": "^2.6.1",
+    "semver": "^5.6.0",
+    "sha3": "^1.2.2",
+    "solc": "^0.5.4",
+    "truffle-core": "^5.0.5",
+    "truffle-legacy-system": "^1.0.6"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "ganache": "ganache-cli -i 42 -p 8888"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.3"
+  }
+}
