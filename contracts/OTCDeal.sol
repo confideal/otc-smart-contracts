@@ -1,3 +1,5 @@
+// © 2018 Confideal Ltd. All rights reserved.
+
 pragma solidity 0.5.4;
 
 import "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol";
